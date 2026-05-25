@@ -344,7 +344,8 @@ Manually add an inbound rule:
 |------|----------|------------|--------|-------------|
 | SSH | TCP | 22 | 0.0.0.0/0 | ⚠️ TEST — intentionally bad rule |
 
-> **[INSERT SCREENSHOT HERE]**  
+> **<img width="1918" height="1022" alt="image" src="https://github.com/user-attachments/assets/3bc3a045-3c43-4fd8-8eca-cdaa80f2e5a3" />
+**  
 > *Caption: AWS EC2 Security Group console — Inbound Rules tab showing the manually added SSH (Port 22) rule with source `0.0.0.0/0` **immediately after** it was added, before auto-remediation.*
 
 **3. Save the rule and start the clock**  
@@ -353,7 +354,8 @@ Click **Save rules**. The moment the `AuthorizeSecurityGroupIngress` API call la
 **4. Watch the rule disappear**  
 Refresh the Inbound Rules tab. Within **under 10 seconds**, the offending rule will be gone — automatically revoked by `CloudSecurityGuard`.
 
-> **[INSERT SCREENSHOT HERE]**  
+> **<img width="1918" height="1011" alt="image" src="https://github.com/user-attachments/assets/48a7f95e-41fc-4a08-8701-372759a3d151" />
+**  
 > *Caption: The same Security Group Inbound Rules tab after auto-remediation — the SSH rule is completely gone. The group is clean.*
 
 **5. Confirm in Lambda CloudWatch Logs**  
@@ -368,7 +370,8 @@ Navigate to Lambda → `CloudSecurityGuard` → Monitor → View CloudWatch Logs
 **6. Verify the Slack Alert**  
 Check the `#security-alerts` Slack channel. A rich incident card should have arrived in real time:
 
-> **[INSERT SCREENSHOT HERE — THIS IS THE MONEY SHOT]**  
+> **<img width="1919" height="1014" alt="image" src="https://github.com/user-attachments/assets/6fbb1391-1d18-4b21-b272-2ca1ed3a94dc" />
+**  
 > *Caption: The `#security-alerts` Slack channel showing the Cloud Guard incident alert card — displaying Security Group ID, offending rule (Port 22 → 0.0.0.0/0), and confirmation that the rule was automatically revoked. Timestamp should show within seconds of the test.*
 
 ---
@@ -471,12 +474,13 @@ aws events put-targets \
 
 ## 👤 Author
 
-**[Your Name]**  
+**KANIKE VINAY **  
 Final-Year B.Tech Computer Science (Artificial Intelligence)  
+TRAINEE AT EXPOSYS DATA LABS 
 Specializing in Cloud Security, DevSecOps & Security Operations
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-PROFILE)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR-USERNAME)
+[![LinkedIn]([https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-PROFILE](https://www.linkedin.com/in/kanikevinay12/))
+[![GitHub]([https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR-USERNAME](https://github.com/kanikevinay))
 
 ---
 
