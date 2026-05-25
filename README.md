@@ -479,8 +479,8 @@ Final-Year B.Tech Computer Science (Artificial Intelligence)
 TRAINEE AT EXPOSYS DATA LABS 
 Specializing in Cloud Security, DevSecOps & Security Operations
 
-[![LinkedIn]([https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-PROFILE](https://www.linkedin.com/in/kanikevinay12/))
-[![GitHub]([https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR-USERNAME](https://github.com/kanikevinay))
+[![LinkedIn]((https://www.linkedin.com/in/kanikevinay12/))
+[![GitHub]((https://github.com/kanikevinay))
 
 ---
 
